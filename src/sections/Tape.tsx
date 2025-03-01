@@ -27,7 +27,7 @@ export const TapeSection = () => {
           <div key={index} className="text-center">
             <a
               href={category.link}
-              className="block bg-gray-900 text-white border-white border-2 font-bold text-xl py-3 px-6 rounded-lg shadow-md hover:bg-yellow-600 transition duration-300"
+              className="block bg-gray-900 text-white border-white border-2 text-xl lg:text-base font-bold py-3 px-6 rounded-lg shadow-md hover:bg-white hover:text-black transition duration-300"
             >
               {category.name}
             </a>
