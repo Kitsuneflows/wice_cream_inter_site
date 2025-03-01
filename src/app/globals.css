@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --foreground: 213 31% 91%;
+        --primary-foreground: 210 40% 98%;
+
+    }
+    .nav-items {
+        @apply px-6 py-2 mx-auto text-center rounded-full text-white/70 text-base font-semibold hover:bg-white/10 hover:text-white transition duration-300;
+    }
+    .hero-ring {
+        @apply absolute inset-0 border-2 top-1/2 left-3/4 md:left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5 
+    }
+}
+
+@layer utilities {
+    .container {
+        @apply lg:max-w-5xl;
+    }
+}
