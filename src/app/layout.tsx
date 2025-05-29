@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import { Inter, Calistoga } from "next/font/google"
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
-import { FooterWithSitemap } from '@/components/footer'
-import { Header } from "@/sections/Header";
+
+
 
 
 const inter = Inter({ subsets: ['latin'], variable:"--font-sans" });
 const calistoga = Calistoga({ subsets: ['latin'], variable:'--font-sherif', weight:['400']});
 
 export const metadata: Metadata = {
-  title: "CDLP Monfort",
-  description: "Café de la pose Monfort-l'Amaury",
+  title: "wice cream",
+  keywords: ["wice cream", "wice", "ice cream", "wicecream", "wice-cream", "wicecream.fr", "wice-cream.fr"],
+  description: "wice cream est un jeu de loterie pour gagner des lots givrés !",
 };
 
 export default function Layout({
