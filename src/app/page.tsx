@@ -18,7 +18,7 @@ export interface Lot {
 
 const lots: Lot[] = [
   { id: 1, label: "Perdu", emoji: "🍬" },
-  { id: 2, label: "Livraison offerte", emoji: "" },
+  { id: 2, label: "une glace offerte", emoji: "" },
   { id: 3, label: "Perdu", emoji: "💳" },
   { id: 4, label: "30", emoji: "%" },
   { id: 5, label: "Perdu", emoji: "🍦" },
